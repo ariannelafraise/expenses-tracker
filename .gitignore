@@ -4,5 +4,6 @@ __pycache__/
 *.csv
 *.json
 *.txt
+!requirements.txt
 deployment/caddy_config/
 deployment/caddy_data/
