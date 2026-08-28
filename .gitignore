@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.db
+*.csv
+*.json
+*.txt
+deployment/caddy_config/
+deployment/caddy_data/

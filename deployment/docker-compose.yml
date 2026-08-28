@@ -1,0 +1,20 @@
+services:
+  expenses-tracker:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8501:8501"
+
+  caddy-proxy:
+    image: caddy
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./caddy-conf:/etc/caddy
+      - ./caddy_data:/data
+      - ./caddy_config:/config
+    depends_on:
+      - expenses-tracker
+

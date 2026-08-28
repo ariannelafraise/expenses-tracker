@@ -1,0 +1,81 @@
+[server]
+address = "0.0.0.0"
+port = 8501
+
+[theme]
+base = "light"
+
+[theme.light]
+primaryColor = "#f276ac"
+backgroundColor = "#FFF8FB"
+secondaryBackgroundColor = "#F9EDF4"
+textColor = "#3D3439"
+borderColor = "#E6D3DD"
+
+linkColor = "#C94F85"
+
+redColor = "#D95F7D"
+redBackgroundColor = "#FBE6EC"
+redTextColor = "#9E4059"
+
+greenColor = "#6DB58D"
+greenBackgroundColor = "#E5F3EB"
+greenTextColor = "#47745C"
+
+violetColor = "#A98BC9"
+violetBackgroundColor = "#F0EAF7"
+violetTextColor = "#6C5783"
+
+blueColor = "#78ABC8"
+blueBackgroundColor = "#E8F2F7"
+blueTextColor = "#4C7085"
+
+orangeColor = "#D5966D"
+orangeBackgroundColor = "#F8ECE2"
+orangeTextColor = "#8C5A3A"
+
+yellowColor = "#C8B35F"
+yellowBackgroundColor = "#F7F1D9"
+yellowTextColor = "#756622"
+
+grayColor = "#9D949A"
+grayBackgroundColor = "#EFEBEE"
+grayTextColor = "#5D565B"
+
+
+[theme.dark]
+primaryColor = "#D85A91"
+backgroundColor = "#0B0B0F"
+secondaryBackgroundColor = "#15151B"
+textColor = "#F7F2F5"
+borderColor = "#2D2930"
+
+linkColor = "#E889B0"
+
+redColor = "#D95F7D"
+redBackgroundColor = "#351923"
+redTextColor = "#F8C0CE"
+
+greenColor = "#82C9A2"
+greenBackgroundColor = "#17251E"
+greenTextColor = "#AEE0C0"
+
+violetColor = "#BDA4DD"
+violetBackgroundColor = "#25202F"
+violetTextColor = "#DCC9EE"
+
+blueColor = "#8EBFD8"
+blueBackgroundColor = "#18252D"
+blueTextColor = "#B5D9E9"
+
+orangeColor = "#D99A72"
+orangeBackgroundColor = "#292019"
+orangeTextColor = "#F0C09B"
+
+yellowColor = "#DDC875"
+yellowBackgroundColor = "#282610"
+yellowTextColor = "#E9D98B"
+
+grayColor = "#A49DA4"
+grayBackgroundColor = "#202024"
+grayTextColor = "#CEC8CD"
