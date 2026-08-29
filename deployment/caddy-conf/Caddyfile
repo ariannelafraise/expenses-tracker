@@ -1,6 +1,6 @@
 [[[domain]]] {
 
-    tls {
+    tls internal {
         client_auth {
             mode require_and_verify
 
