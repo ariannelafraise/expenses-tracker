@@ -15,7 +15,6 @@ services:
     network_mode: host
     volumes:
       - ./caddy-conf:/etc/caddy
-      - ./certs/client-ca.crt:/etc/caddy/certs/client-ca.crt
       - ./caddy_data:/data
       - ./caddy_config:/config
     depends_on:
