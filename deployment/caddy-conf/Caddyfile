@@ -1,5 +1,15 @@
 [[[domain]]] {
-    tls internal
+
+    tls {
+        client_auth {
+            mode require_and_verify
+
+            trust_pool file {
+                pem_file /etc/caddy/certs/client-ca.crt
+            }
+        }
+    }
+
     log
     reverse_proxy 127.0.0.1:8501
 }
