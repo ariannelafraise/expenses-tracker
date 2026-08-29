@@ -10,3 +10,5 @@ deployment/caddy_data/
 deployment/caddy-conf/certs/**
 !deployment/caddy-conf/certs/.gitkeep
 !deployment/caddy-conf/certs/replace-me-ca.crt
+seed.py
+local-dev-root.crt
