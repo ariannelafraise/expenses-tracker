@@ -140,7 +140,9 @@ elif selected_tags:
     _,
     _,
     _,
-) = calculate_general_stats(filters) # TODO: optimization if performance becomes an issue
+) = calculate_general_stats(
+    filters
+)  # TODO: optimization if performance becomes an issue
 
 with stats_placeholder.container():
     stat_col1, stat_col2 = st.columns(2)
