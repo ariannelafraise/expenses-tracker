@@ -6,7 +6,7 @@ It is secured using HTTPS and TLS client authentication through self-signed cert
 
 > [!NOTE]
 > The application's import feature was developed specifically for my 
-> bank's JSON format. However, you may rewrite it to adapt it to 
+> bank's JSON format. However, it can be rewritten to adapt it to 
 > other formats.
 
 ## Showcase
