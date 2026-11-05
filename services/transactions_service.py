@@ -93,7 +93,7 @@ def import_from_json_file(uploaded_file):
                     [
                         transaction_data.get("dateInscription", ""),
                         transaction_data.get("montantTransaction", ""),
-                        transaction_data.get("descriptionCourte", ""),
+                        transaction_data.get("descriptionSimplifiee", ""),
                     ]
                 ).encode("utf-8")
             ).hexdigest()
