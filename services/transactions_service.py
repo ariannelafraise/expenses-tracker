@@ -91,7 +91,6 @@ def import_from_json_file(uploaded_file):
             identifiant = hashlib.sha256(
                 "|".join(
                     [
-                        transaction_data.get("numeroSequence", ""),
                         transaction_data.get("dateTransaction", ""),
                         transaction_data.get("montantTransaction", ""),
                         transaction_data.get("descriptionCourte", ""),
